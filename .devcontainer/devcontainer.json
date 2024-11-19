@@ -9,7 +9,7 @@
 		"version": "lts"
 	  }
 	},
-	"postCreateCommand": "npm install -g @megalinter/megalinter-cli",
+	"postCreateCommand": "npm install -g megalinter",
 	"customizations": {
 	  "vscode": {
 		"settings": {
