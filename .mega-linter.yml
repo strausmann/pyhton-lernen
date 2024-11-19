@@ -1,0 +1,11 @@
+---
+linters:
+  ENABLED_LINTERS:
+    - PYTHON_PYLINT
+    - PYTHON_BLACK
+
+python_pylint:
+  arguments: "--disable=C0111"
+
+python_black:
+  arguments: "--line-length=88"
